@@ -217,3 +217,12 @@ After completing all TODOs, test your calculator:
 // import { parseNumbers, isValidOperation } from "./utils/parser.js";
 // import _ from "lodash";
 
+//const operation = process.argv[2];
+// const numbers = process.argv.slice(3);
+//
+// if (!isValidOperation(operation)) {
+//   console.log("Invalid operation. Use: add, subtract, multiply, or divide");
+//   process.exit(0);
+// }
+//
+//
