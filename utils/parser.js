@@ -1,7 +1,9 @@
+//todo 5
 import _ from "lodash";
 
 export function parseNumbers(input) {
-    return _.filter(_.map(input, (str) => Number(str)), (num) => !_.isNaN(num));
+    const numbers = _.map(input, (str) => Number(str));
+    return _.compact(numbers);
 }
 
 export function isValidOperation(operation) {
